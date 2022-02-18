@@ -2,9 +2,6 @@
 
 a simple notepad like program written in python.
 
-to add support for different files, simply go to lines 131 and 132, and add your file types in this way:
+to add support for different files, simply go to lines 163, and add your file types.
 
-	filetypes=[("All Files","*.*"),           (pre written)
-	           ("Text Documents","*.txt")])   (pre written)
-                   ("file_type","*.extension")
-                    
+to change "open" file types, go to lines 131 and add your file types, I have left this untouched so you can have a little minor practice
